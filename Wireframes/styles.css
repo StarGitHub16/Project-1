@@ -145,3 +145,35 @@ section.fighting img, section.adventure img, section.party img, section.tourname
     margin-left: 20px;
     width: 440px;
 }
+
+/*CSS targeted at the Sign Up page of the website*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: lightcyan;
+    font-size: 20px;
+    margin: 30px;
+    align-content: auto;
+   }
+
+   .grid-details {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+   }
+
+        .grid-details h2{
+            text-align: center;
+        }
+
+        .grid-details ul{
+            text-align: center;
+            font-size: 30px;
+            list-style: none;
+        }
+
+    form {
+        font-size: 30px;
+        text-align: center;
+    }
