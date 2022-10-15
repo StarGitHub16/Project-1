@@ -1,0 +1,193 @@
+/*GLOBAL*/
+
+body{
+    margin: 0;
+}
+
+
+/*STRUCTURE*/
+
+header {
+    width: 100%;
+    height: 60px;
+    background: rgb(0,0,0);
+    margin-bottom: 5px;
+}
+
+    .logo {
+        width: 200px;
+        height: 60px;
+        float: left;
+        color: rgb(0, 137, 255); 
+        font-family: 'Silkscreen', cursive;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    nav {
+        float: right;
+        color: rgb(0, 225, 255);
+        font-family: 'Silkscreen', cursive;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    nav li a {
+        color: rgb(0, 137, 255);
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: rgb(0, 225, 255); 
+        text-decoration: none;
+    }
+
+section.hero {
+    width: 100%;
+    height: 500px;
+    background: rgb(175,175,175);
+    background-size: 100% 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+    section.hero img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0;
+    }
+
+section.about {
+    width: 100%;
+    height: 350px;
+    background: rgb(220,220,220);
+    margin: 0 auto 5px;
+    padding: 5px 0;
+
+}
+
+  section.about img {
+    float:left;
+  }
+
+  section.about h1{
+        font-size: 25px;
+        text-align:center;
+        margin-bottom: -20px;
+  }
+
+  section.about p {
+    text-align:center;
+    margin-bottom: -20px;
+    padding: 10px
+  }
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: rgb(100,100,100);
+    text-align:center;
+}
+
+
+/*CSS targeted at the details page of the website*/
+
+
+.description h1{
+    text-align: center;
+}
+
+.description p{
+    font-size: 25px;
+}
+
+section.fighting {
+    width: 100%;
+    height: 300px;
+    background: rgb(175,175,175);
+    background-size: 100% 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+
+section.adventure {
+    width: 100%;
+    height: 300px;
+    background: rgb(175,175,175);
+    background-size: 100% 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+section.party {
+    width: 100%;
+    height: 300px;
+    background: rgb(175,175,175);
+    background-size: 100% 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+section.tournament {
+    width: 100%;
+    height: 300px;
+    background: rgb(175,175,175);
+    background-size: 100% 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    text-align:right;
+}
+
+section.fighting img, section.adventure img, section.party img, section.tournament img{
+    width: 460px;
+    height: 300px;
+    background: rgb(200,200,200);
+    float: left;
+}
+
+.fightingcontent, .adventurecontent, .partycontent, .tournamentcontent {
+    float: left;
+    margin-left: 20px;
+    width: 440px;
+}
+
+/*CSS targeted at the Sign Up page of the website*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: lightcyan;
+    font-size: 20px;
+    margin: 30px;
+    align-content: auto;
+   }
+
+   .grid-details {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+   }
+
+        .grid-details h2{
+            text-align: center;
+        }
+
+        .grid-details ul{
+            text-align: center;
+            font-size: 30px;
+            list-style: none;
+        }
+
+    form {
+        font-size: 30px;
+        text-align: center;
+    }
