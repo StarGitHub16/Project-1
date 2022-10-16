@@ -2,6 +2,8 @@
 
 body{
     margin: 0;
+    background: url(img/gamingbackground.jpg);
+    background-size: cover;
 }
 
 
@@ -102,9 +104,28 @@ section.about {
 footer {
     width: 100%;
     height: 60px;
-    background: rgb(100,100,100);
+    background: rgb(0,0,0);
     text-align:center;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(0, 137, 255);
+    position: absolute;
 }
+
+    footer li {
+    display: inline;
+    margin-right: 30px;
+    font-weight: bold;
+    }
+
+    footer li a {
+    color: rgb(0, 137, 255);
+    text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: rgb(0, 225, 255); 
+        text-decoration: none;
+    }
 
 
 
@@ -114,6 +135,9 @@ footer {
 
 .description h1{
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Silkscreen', cursive;
+
 }
 
 .description p{
@@ -123,36 +147,40 @@ footer {
 section.fighting {
     width: 100%;
     height: 300px;
-    background: rgb(175,175,175);
     background-size: 100% 100%;
     margin-bottom: 5px;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255)
 }
 
 
 section.adventure {
     width: 100%;
     height: 300px;
-    background: rgb(175,175,175);
     background-size: 100% 100%;
     margin-bottom: 5px;
     text-align: right;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255)
 }
 
 section.party {
     width: 100%;
     height: 300px;
-    background: rgb(175,175,175);
     background-size: 100% 100%;
     margin-bottom: 5px;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255);
 }
 
 section.tournament {
     width: 100%;
     height: 300px;
-    background: rgb(175,175,175);
     background-size: 100% 100%;
     margin-bottom: 5px;
     text-align:right;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255)
 }
 
 section.fighting img, section.adventure img, section.party img, section.tournament img{
