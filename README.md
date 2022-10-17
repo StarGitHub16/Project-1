@@ -12,6 +12,9 @@ The user will be able to
 
 The website is developed using HTML5 and CSS3
 
+The website can be navigated using the nav bar on the right, to go to each page,
+Between Main, Details, and Sign Up resepectively.
+
 Some Future Improvements that could be made:
     1) Make adjustments for the site to be optimized for moblie devices.
     2) Have a way to pay through the website, currently main way is in person.
